@@ -9,18 +9,18 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111111'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Arial' font-size='18' fill='white'%3ES%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-  <header class="wrap">
-    <a class="brand" href="#">STAS PUIDA</a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#journey">Journey</a><a href="#interests">Interests</a>
-    </nav>
-  </header>
   <main class="wrap">
     <section class="intro" aria-labelledby="name">
-      <p class="eyebrow">DATA ENGINEERING | BERLIN</p>
+      <div class="intro-copy">
+      <p class="eyebrow">Data Engineer</p>
       <h1 id="name">Stanislav<br><span>(Stas) Puida.</span></h1>
       <p class="intro-text">I’m Stanislav, but you can call me Stas. I’m 23 and I’m originally from Luhansk, Ukraine. I graduated from Kaunas University of Technology and am starting a Working Student Data Engineer role at Vattenfall alongside my M.Sc. in Business Intelligence and Process Management at HWR Berlin.</p>
-      <a class="github" href="https://github.com/stas09">GitHub / stas09</a>
+      <a class="github" href="https://github.com/stanislav-puida">GitHub / stanislav-puida</a>
+      </div>
+      <div class="intro-visuals">
+      <img class="profile-photo" src="assets/profile.jpg" alt="Portrait of Stanislav Puida" width="853" height="853">
+      <figure class="origin"><img src="assets/ukraine.svg" alt="Outline of Ukraine with Luhansk highlighted" width="420" height="300"><figcaption>Luhansk | Ukraine</figcaption></figure>
+      </div>
     </section>
 
     <section id="about" class="row-section">
@@ -34,8 +34,8 @@
     <section id="experience" class="row-section">
       <h2>Experience</h2>
       <div>
-        <article class="entry"><h3>Vattenfall</h3><p class="role">Working Student Data Engineer</p><p class="meta">Berlin, Germany | Upcoming role</p></article>
-        <article class="entry"><h3>Littelfuse</h3><p class="role">Data Engineer Intern -&gt; Data Engineer</p><p class="meta">Kaunas, Lithuania</p><h4>Areas of work</h4>
+        <article class="entry"><div class="entry-heading"><h3>Vattenfall</h3><img class="org-logo" src="assets/vattenfall.svg" alt="Vattenfall logo" loading="lazy"></div><p class="role">Working Student Data Engineer</p><p class="meta">Berlin, Germany | Upcoming role</p></article>
+        <article class="entry"><div class="entry-heading"><h3>Littelfuse</h3><img class="org-logo" src="assets/littelfuse.png" alt="Littelfuse logo" loading="lazy"></div><p class="role">Data Engineer Intern -&gt; Data Engineer</p><p class="meta">Kaunas, Lithuania</p><h4>Areas of work</h4>
           <ul>
             <li>Data ingestion and pipelines with Azure Data Factory, ADLS Gen2 and Azure Synapse.</li>
             <li>Integration of SAP BW/ECC, SQL databases, REST APIs and Microsoft Graph.</li>
@@ -49,8 +49,8 @@
     <section id="education" class="row-section">
       <h2>Education</h2>
       <div>
-        <article class="entry"><h3>HWR Berlin</h3><p>M.Sc. Business Intelligence and Process Management</p></article>
-        <article class="entry"><h3>Kaunas University of Technology</h3><p>B.Sc. Business Digitalization Management</p><p class="meta">Bachelor’s thesis: “AI Capabilities and Roadblocks in Selling at Littelfuse”</p></article>
+        <article class="entry"><div class="entry-heading"><h3>HWR Berlin</h3><img class="org-logo hwr-logo" src="assets/hwr.svg" alt="HWR Berlin logo" loading="lazy"></div><p>M.Sc. Business Intelligence and Process Management</p></article>
+        <article class="entry"><div class="entry-heading"><h3>Kaunas University of Technology</h3><img class="org-logo ktu-logo" src="assets/ktu.svg" alt="Kaunas University of Technology logo" loading="lazy"></div><p>B.Sc. Business Digitalization Management</p><p class="meta">Bachelor’s thesis: “AI Capabilities and Roadblocks in Selling at Littelfuse”</p></article>
         <article class="entry"><h3>Brno University of Technology</h3><p>Erasmus exchange semester</p><p class="meta">Courses included business intelligence, information systems and artificial intelligence.</p></article>
         <article class="entry"><h3>Kharkiv National University of Radio Electronics</h3><p>Telecommunications and Radio Engineering</p><p class="meta">I left the programme after moving abroad.</p></article>
       </div>
@@ -63,7 +63,6 @@
           <li><h3>Luhansk | Ukraine</h3></li>
           <li><h3>Kharkiv | Ukraine</h3><p>I began studying Telecommunications and Radio Engineering at Kharkiv National University of Radio Electronics.</p></li>
           <li><h3>Kremenchuk | Ukraine</h3></li>
-          <li><h3>Kraków | Poland</h3></li>
           <li><h3>Poznań | Poland</h3></li>
           <li><h3>Kaunas | Lithuania</h3><p>My studies in Ukraine were disrupted by the war. After my time in Poland I continued my education in Lithuania.</p><p>At Kaunas University of Technology, I studied Business Digitalization Management and graduated. I was learning management, data analytics, databases and process automation.</p></li>
           <li><h3>Brno | Czech Republic</h3><p>During an Erasmus semester at Brno University of Technology, I studied business intelligence, information systems and AI. Then I returned to Lithuania.</p></li>
@@ -85,9 +84,9 @@
     <section class="photos" aria-label="Personal photographs">
       <figure><img src="assets/kayaking.jpg" alt="Kayaking on a river" width="960" height="1280" loading="lazy"><figcaption>Kayaking</figcaption></figure>
       <figure class="wide-photo"><img src="assets/judo.jpg" alt="Group photograph at the Shoshin Judo Cup" width="1280" height="960" loading="lazy"><figcaption>Judo</figcaption></figure>
-      <figure><img src="assets/hiking.jpg" alt="Hiking on a mountain trail" width="591" height="1280" loading="lazy"><figcaption>Hiking</figcaption></figure>
+      <figure><img src="assets/hiking.jpg" alt="Hiking on a mountain trail" width="591" height="1038" loading="lazy"><figcaption>Hiking</figcaption></figure>
     </section>
   </main>
-  <footer class="wrap"><span>Stanislav (Stas) Puida | Berlin</span><a href="https://github.com/stas09">GitHub</a></footer>
+  <footer class="wrap"><span>Stanislav (Stas) Puida | Berlin</span><a href="https://github.com/stanislav-puida">GitHub</a></footer>
 </body>
 </html>
