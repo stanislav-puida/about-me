@@ -1,0 +1,58 @@
+[
+  {
+    "city": "Luhansk",
+    "country": "Ukraine",
+    "lat": 48.574,
+    "lon": 39.307,
+    "story": "My home city"
+  },
+  {
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "lat": 49.9935,
+    "lon": 36.2304,
+    "story": "Technical studies at Kharkiv National University of Radio Electronics"
+  },
+  {
+    "city": "Kremenchuk",
+    "country": "Ukraine",
+    "lat": 49.067,
+    "lon": 33.42,
+    "story": "A stop before moving to Poland"
+  },
+  {
+    "city": "Kraków",
+    "country": "Poland",
+    "lat": 50.0647,
+    "lon": 19.945,
+    "story": "Lived here before Poznań"
+  },
+  {
+    "city": "Poznań",
+    "country": "Poland",
+    "lat": 52.4064,
+    "lon": 16.9252,
+    "story": "Lived here before moving to Lithuania"
+  },
+  {
+    "city": "Kaunas",
+    "country": "Lithuania",
+    "lat": 54.8985,
+    "lon": 23.9036,
+    "story": "KTU bachelor’s studies and work at Littelfuse"
+  },
+  {
+    "city": "Brno",
+    "country": "Czech Republic",
+    "lat": 49.1951,
+    "lon": 16.6068,
+    "story": "Erasmus exchange at Brno University of Technology"
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "lat": 52.52,
+    "lon": 13.405,
+    "story": "HWR BIPM master’s and an upcoming role at Vattenfall"
+  }
+]
