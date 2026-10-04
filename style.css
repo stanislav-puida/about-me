@@ -14,3 +14,7 @@ body{background-color:#fff;background-image:radial-gradient(circle at 82% 8%,rgb
 @media(max-width:900px){.intro{grid-template-columns:minmax(0,1fr) 160px;gap:30px}}
 @media(max-width:760px){.intro{grid-template-columns:1fr;gap:24px}.intro-visuals{padding:0;width:auto;justify-content:flex-start}.profile-photo{width:130px}.intro::before{right:0;top:0;width:260px;height:260px}}
 @media(max-width:420px){.profile-photo{width:120px}}
+
+/* Explicit width and height prevent the original photo height from stretching the layout. */
+.intro .profile-photo{width:120px;height:120px;min-width:120px;max-width:120px;max-height:120px;object-fit:cover;object-position:center;flex:none}
+.intro .intro-visuals{align-self:start;height:120px;padding:0}
