@@ -8,7 +8,7 @@ const status = document.getElementById('status');
 if(typeof L === 'undefined'){status.hidden=false;status.textContent='The map could not load. You can read the full journey on the main page.';}else{
 const map = L.map('map',{scrollWheelZoom:false});
 const tiles = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles &copy; Esri | Sources: Esri, HERE, Garmin, USGS, Intermap, INCREMENT P, NRCan, Esri Japan, METI, Esri China (Hong Kong), Esri Korea, Esri (Thailand), NGCC, &copy; OpenStreetMap contributors and the GIS User Community'}).addTo(map);
-tiles.on('tileerror',()=>{status.hidden=false;status.textContent='Background tiles are unavailable. The city markers and journey descriptions still work.'});
+tiles.on('tileerror',()=>{status.hidden=false;status.textContent=''});
 const bounds=L.latLngBounds(places.map(p=>[p.lat,p.lon]));
 function fit(){map.fitBounds(bounds,{padding:[35,35]});}
 const markers = places.map(p=>{
